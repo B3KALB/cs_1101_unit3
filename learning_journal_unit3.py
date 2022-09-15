@@ -17,10 +17,12 @@ whole_num = input("Please enter an integer: ")
 
 n = int(whole_num)
 
-if n >= 0:
+if n > 0:
     countdown(n)
-else:
+elif n < 0:
     countup(n)
+else:
+     print('Blastoff!')
 
 # ex2
 # working

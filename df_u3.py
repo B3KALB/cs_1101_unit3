@@ -88,3 +88,21 @@ def nest_it_deep(incoming):
             print(f"{incoming}: You nailed it!")
 
 nest_it_deep(take_a_guess)
+
+# RESPONDING CODE
+n=int(input("Enter your number: "))
+
+def odd_or_even(n):
+    if (n > 0):
+        print("Positive")
+    else:
+        print("Negative")
+    if(n%2==0):
+        print("even")
+    else:
+        print("odd")
+
+def number():
+    odd_or_even(n)
+
+number()
